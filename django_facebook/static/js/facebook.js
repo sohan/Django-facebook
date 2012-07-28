@@ -94,7 +94,7 @@ facebookClass.prototype = {
                     <div id="facebook_lightbox">\
                         <div id="facebook_message" />{{ message }}</div>\
                         <img id="facebook_loading" src="' + staticUrl + 'images/facebook_loading.gif" alt="..."/>\
-                        <div id="facebook_close" style="display: none" onclick="document.getElementById(\'facebook_container\').style.display=\'none\';"></div>\
+                        <div id="facebook_close" style="display: none" onclick="document.getElementById(\'facebook_container\').style.display=\'none\';">X</div>\
                     </div>\
                 </div>';
             html = html.replace('{{ message }}', message);
